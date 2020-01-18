@@ -1,0 +1,86 @@
+########################### about service #############################
+about:
+  enable : true
+  title : "Strategic Marketing & Visual Communication."
+  content : "The Max Moore Media Consultancy provides a turnkey media service to place your business on a 
+            solid marketing foundation. Our Strategic Marketing and Visual Communication blueprint is designed 
+            to effectively differentiate our client from its competitors by mobilising their strengths 
+            (both current and potential) and provide a consistently better value proposition to their customers 
+            than the competitors"
+  image : "images/company/about.jpg"
+
+
+########################## featured service ############################
+featured_service:
+  enable : true
+  service_item:
+    # featured service item loop
+    - name : "Strategic Marketing"
+      icon : "ion-arrow-graph-up-right"
+      color : "primary"
+      #content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe enim impedit repudiandae omnis est temporibus."
+      
+    # featured service item loop
+    - name : "Web Development"
+      icon : "ion-laptop"
+      color : "primary-dark"
+      #content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe enim impedit repudiandae omnis est temporibus."
+      
+    # featured service item loop
+    - name : "Visual Acument"
+      icon : "ion-lightbulb"
+      color : "primary-darker"
+      #content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe enim impedit repudiandae omnis est temporibus."
+
+      
+############################# Service ###############################
+service:
+  enable : true
+  title : "Our Services"
+  description : "Far far away, behind the word mountains, far from the shores of Consonantia, there lived a family of verbs with their blind text pets. 
+  Together, they lived happily in Bookmarks Grove right on the coast near Cape Semantics..."
+  service_item:
+    # service item loop
+    - icon : ion-arrow-graph-up-right #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
+      name: Strategic Marketing
+      #content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+
+    # service item loop
+    - icon : ion-laptop #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
+      name: Web Development
+      #content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+
+    # service item loop
+    - icon : ion-medkit #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
+      name: Packaging Design
+      #content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+
+    # service item loop
+    - icon : ion-camera #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
+      name: Photography
+      #content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+
+    # service item loop
+    - icon : ion-compose #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
+      name: Copywriting
+      #content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+
+    # service item loop
+    - icon : ion-videocamera #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
+      name: Video Production
+      #content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+
+    # service item loop
+    - icon : ion-edit #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
+      name: Graphic Design
+      #content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+
+    # service item loop
+    - icon : ion-earth #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
+      name: Brand Identity
+      #content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      
+############################# call to action #################################
+cta:
+  enable : true
+  # call to action content comes from "data/*/homepage.yml"

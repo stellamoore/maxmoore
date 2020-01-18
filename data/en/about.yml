@@ -1,0 +1,109 @@
+################################## About #####################################
+about:
+  enable : true
+  image : "images/company/about.jpg"
+  title : "WE STRIVE FOR EXCELLENCE AND <br>ACHIEVE AWSOME RESULTS."
+  content : "No matter the size or scope of the assignment Max Moore Media's workflow maintains the same professional attitude and approach to provide 100% client satisfaction."
+
+  button:
+    enable : true
+    label : "Reach Out - Contact Us"
+    link : "/contact/"
+
+    funfacts:
+    # funfacts loop
+    - icon : "ion-ios-flask-outline" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Completed Projects"
+      count : "444"
+      
+    # funfacts loop
+    - icon : "ion-ios-flame-outline" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Lines Of Code"
+      count : "44000"
+      
+    # funfacts loop
+    - icon : "ion-ios-pint-outline" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Pints of Beer"
+      count : "20"
+      
+    # funfacts loop
+    - icon : "ion-ios-wineglass-outline" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Pizzas"
+      count : "8"
+      
+    # funfacts loop
+    - icon : "ion-ios-chatboxes-outline" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Satisfied Customer"
+      count : "69"
+      
+    # funfacts loop
+    - icon : "ion-ios-body-outline" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Awards"
+      count : "2"
+     
+      
+################################ feature #####################################
+features:
+  enable : true
+  title : "WHAT WE DO BEST"
+  feature_item:
+    # feature item loop
+    - icon : "ion-arrow-graph-up-right" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Strategic Marketing"
+     # content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      
+    # feature item loop
+    - icon : "ion-ios-book-outline" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Copywriting"
+     # content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      
+    # feature item loop
+    - icon : "ion-laptop" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Web Development"
+     # content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      
+    # feature item loop
+    - icon : "ion-ios-lightbulb-outline" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Graphic Design"
+     # content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      
+    # feature item loop
+    - icon : "ion-ios-camera" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Photography/Video"
+     # content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      
+    # feature item loop
+    - icon : "ion-scissors" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Digital Editing"
+     # content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+    
+
+#################################### testimonial & mission vision #######################################
+testimonial:
+  enable : true
+  # testimonial content comes from "data/*/homepage.yml" file
+
+mission_vision:
+  enable : true
+  tabs:
+    # tab item loop
+    - name : "Vision"
+      content : "Our focus on the future is to supply the business market in the region as well as in the world with our outstanding design solutions 
+      that would grow together the firm and our clients’ success."
+      
+    # tab item loop
+    - name : "Mission"
+      content : "At Max Moore Media our mission statement is simple, yet it holds a lot of meaning for us. We strive to obtain this objective for each and every 
+      project we work on by asking ourselves these three questions: Does the design message inspire the viewer? Does it persuade the person to take action? 
+      Does it effectively communicate the message? If it meets each of these criteria then we have succeeded in our mission."
+      
+    # tab item loop
+    - name : "Approach"
+      content : "Max Moore Media highly values creativity in its services and products, cooperation within the team and with its clients, 
+      commitment to excellence, and above all, customer satisfaction."
+
+
+############################# call to action #################################
+cta:
+  enable : true
+  # call to action content comes from "data/*/homepage.yml"

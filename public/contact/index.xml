@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DON&#39;T PUT YOUR MESSAGE IN A BOTTLE. on Max Moore Media</title>
+    <link>/contact/</link>
+    <description>Recent content in DON&#39;T PUT YOUR MESSAGE IN A BOTTLE. on Max Moore Media</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; 2020 All Rights Reserved &lt;br &gt;[Themefisher &amp; HUGO]</copyright>
+    
+	<atom:link href="/contact/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

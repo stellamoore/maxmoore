@@ -1,0 +1,117 @@
+############################### Banner ##############################
+banner:
+  enable : true
+  bg_image : "images/slider-bg.jpg"
+  title : "Strategic Marketing <br/> & Visual Communications"
+  content : "WE CREATE INFORMATIVE AND MEMORABLE NARRATIVES TO CONVEY YOUR MESSAGE <br/>
+  TO THE WORLD"
+  button:
+    enable : true
+    label : "Discover Our Work"
+    link : "project"
+
+############################# About #################################
+about:
+  enable : true
+  title : "About Us"
+  description : "The Max Moore Media Consultancy provides a turnkey media service to place your business on a solid marketing foundation."
+  content : "Our Strategic Marketing and Visual Communication blueprint is designed to effectively differentiate our client from its competitors by mobilising their 
+            strengths (both current and potential) and provide a consistently better value proposition to their customers than the competitors"
+  image : "images/company/about.jpg"
+
+
+######################### Portfolio ###############################
+portfolio:
+  enable : true
+  bg_image : "images/believe.jpg"
+  title : "WE BELIEVE PEOPLE CAN BE ENCOURAGED TO FORMULATE GREAT AND ORIGINAL IDEAS."
+  content : "The team at Max Moore Media guide and empower our clients to take ownership of the creative process to render exactly what is required to return positive and effective outcomes for their business."
+  
+
+
+ # button:
+  #  enable : true
+  # label : "View Works"
+  #  link : "project"
+
+
+############################# Service ############################
+service:
+  enable : true
+  # service content comes from "data/*/service.yml" file
+
+
+############################ call to action ###########################
+cta:
+  enable : true
+  bg_image : "images/company/cranes2.jpg"
+  title : "Our goal is to help you achieve your goal."
+  content : "Read more about what we do and our philosophy of design. Judge for yourself from work and results we’ve achieved for clients."
+  button:
+    enable : true
+    label : "Reach out - Contact us"
+    link : "contact"
+
+############################# Funfacts ###############################
+funfacts:
+  enable : true
+  title : "Fun Facts About Us"
+  description : "Far far away, behind the word mountains, far from the shores of Consonantia, there lived a family of verbs with their blind text pets. 
+  Together, they lived happily in Bookmarks Grove right on the coast near Cape Semantics..."
+  funfact_item:
+    # funfacts item loop
+    - icon : "ion-coffee" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Cups Of Coffee"
+      count : "99"
+      
+    # funfacts item loop
+    - icon : "ion-ios-glasses-outline" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Emails Received Today"
+      count : "88"
+      
+    # funfacts item loop
+    - icon : "ion-ios-compose-outline" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Projects Planned"
+      count : "16"
+      
+    # funfacts item loop
+    - icon : "ion-ios-timer-outline" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Projects Completed This Week"
+      count : "4"
+
+  testimonial_slider:
+    # testimonial item loop
+    - name : "Michael Walters"
+      image : "images/clients/avater-1.jpg"
+      designation : ""
+      content : "This Company created a series of panoramic photrgraphs to hang in our boardroom.. They look really fantastic and relate to our business practice."
+                
+    # testimonial item loop
+    - name : "Troy Shillington"
+      image : "images/clients/avater-6.jpg"
+      designation : ""
+      content : "Great work Max and Team, Thanks"
+                
+    # testimonial item loop
+    - name : "Rosemary Molloy"
+      image : "images/clients/avater-3.jpg"
+      designation : ""
+      content : "Excellent results, well done."
+
+          # testimonial item loop
+    - name : "Roy Charmler"
+      image : "images/clients/avater-2.jpg"
+      designation : ""
+      content : "Thank you for going the extra mile."
+                
+    # testimonial item loop
+    - name : "Robert Renin"
+      image : "images/clients/avater-4.jpg"
+      designation : ""
+      content : "We will definitely commission Max Moore Media for our next confidential project, thanks for the good work."
+                
+    # testimonial item loop
+    - name : "Lilly Yuan"
+      image : "images/clients/avater-5.jpg"
+      designation : ""
+      content : "Highly recommended."         
